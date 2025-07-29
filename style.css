@@ -1,0 +1,77 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-form{
+    padding: 4rem;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input{
+    padding: .5rem;
+    border-radius: 20px;
+    margin: .5em 0;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    width: 40%;
+    padding: 3% 5%;
+    background: #000;
+    color: white;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
